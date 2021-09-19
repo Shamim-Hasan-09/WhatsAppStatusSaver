@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E8E563"
+    android:id="@+id/swipe"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/recylerview"
+       android:fitsSystemWindows="true"
+       ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
